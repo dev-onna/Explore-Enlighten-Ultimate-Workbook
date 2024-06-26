@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
+header {
+  background-color: #6a5acd;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+#cover {
+  width: 100%;
+  height: auto;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+  
+}
+.photo img {
+border-radius: 10px;
+max-width: 100%;
+height: auto;
+flex: 1; /* Ensure the images take up equal space */
+max-width: 30%; 
+}
+.cta {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.cta:hover {
+  background-color: #ff4500;
+}
